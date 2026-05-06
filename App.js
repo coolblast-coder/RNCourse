@@ -41,6 +41,7 @@ export default function App() {
               </View>
             );
           }}
+          //testing purposes, not recommended for production
           keyExtractor={(item, index) => index.toString()}
           alwaysBounceVertical={false}
         />
